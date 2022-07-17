@@ -1,0 +1,4 @@
+
+public class openmasteryweek2 {
+
+}
