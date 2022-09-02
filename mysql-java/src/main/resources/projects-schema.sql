@@ -28,7 +28,7 @@ CREATE TABLE step (
 	step_id INT AUTO_INCREMENT NOT NULL,
 	project_id INT NOT NULL,
 	step_text TEXT NOT NULL,
-	step_oder INT NOT NULL,
+	step_order INT NOT NULL,
     PRIMARY KEY (step_id),
     FOREIGN KEY (project_id) REFERENCES project (project_id) ON DELETE CASCADE
 );
